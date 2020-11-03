@@ -20,7 +20,7 @@ rm -rf "$rootDir/build/typescript/$ARTIFACT_NAME"
 PYTHONPATH=".:${PYTHONPATH}" python3 "catbuffer/main.py" \
   --schema catbuffer/schemas/all.cats \
   --include catbuffer/schemas \
-  --output "catbuffer/_generated" \
+  --output "catbuffer/_generated/typescript" \
   --generator typescript \
   --copyright catbuffer/HEADER.inc
 

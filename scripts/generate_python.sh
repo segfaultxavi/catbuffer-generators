@@ -76,7 +76,7 @@ rm -rf "${artifactBuildDir}"
 PYTHONPATH=".:${PYTHONPATH}" python3 "catbuffer/main.py" \
   --schema catbuffer/schemas/all.cats \
   --include catbuffer/schemas \
-  --output "catbuffer/_generated" \
+  --output "catbuffer/_generated/python" \
   --generator python \
   --copyright catbuffer/HEADER.inc
 
